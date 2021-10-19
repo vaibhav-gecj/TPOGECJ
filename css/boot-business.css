@@ -12,48 +12,49 @@
  */
 
 /* Start : Override Bootstrap navigation */
-.navbar-inner, footer {
+.navbar-inner,
+footer {
   border: none;
   padding: 15px 0;
-  background: url('../img/header-footer.png');
+  background: url("../img/header-footer.png");
 }
 .navbar .brand-bootbus {
-	font-size: 30px;
-	cursor: pointer;
-	text-shadow: none;
-	color: white;
+  font-size: 30px;
+  cursor: pointer;
+  text-shadow: none;
+  color: white;
   font-weight: bold;
 }
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
-	border-top-color: white;
-	border-bottom-color: white;
+  border-top-color: white;
+  border-bottom-color: white;
 }
 .navbar .nav > li > a {
-	text-shadow: none;
-	color: white;
-	font-size: 17px;
+  text-shadow: none;
+  color: white;
+  font-size: 17px;
   font-weight: bold;
   -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-         border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
-	color: white !important;
-	background: #2E3436 !important;
+  color: white !important;
+  background: #2e3436 !important;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
-	background: #2E3436;
+  background: #2e3436;
 }
 /* End : Override Bootstrap navigation */
 
 /* Start : Override Bootstrap hero unit */
 .hero-unit {
-	background: none;
-	padding: 0 60px 0 60px;
-	margin: 0;
+  background: none;
+  padding: 0 60px 0 60px;
+  margin: 0;
 }
 .hero-unit h1 {
   margin: 10px 0 10px 0;
@@ -84,48 +85,48 @@
 /* Start: Bootbusiness specific CSS */
 .content {
   padding: 30px 0;
-  background: url('../img/content.png');
+  background: url("../img/content.png");
 }
 .thumbnail img {
   width: 100%;
 }
-.test img{
-  width: :100px;
+.test img {
+  width: 100px;
   height: 200px;
 }
 .active-link {
-  background-color: #2E3436;
+  background-color: #2e3436;
 }
 .page-header {
   margin: 0 0 30px;
   border-bottom: 1px solid #ddd;
 }
 .slider {
-	border-bottom:  1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 .widget-header {
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   padding: 20px 5px;
   text-align: center;
   margin: 0;
   border-bottom: 0;
-  background-color: #EEEEEC;
+  background-color: #eeeeec;
   -webkit-border-radius: 5px 5px 0 0;
-     -moz-border-radius: 5px 5px 0 0;
-          border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 .widget-body {
   font-size: 16px;
   padding: 30px 0 20px 0;
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   -webkit-border-radius: 0 0 5px 5px;
-     -moz-border-radius: 0 0 5px 5px;
-          border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
 }
 .widget-footer {
   padding: 6%;
   background-color: #e5e5e5;
-  border-top: 1px solid #DDD;
+  border-top: 1px solid #ddd;
 }
 .widget-footer p {
   margin: 0;
@@ -162,7 +163,7 @@
 }
 .post-row {
   padding-bottom: 10px;
-  border-bottom:  1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 .sidebar {
   padding: 20px 0;
@@ -170,13 +171,13 @@
 .circle {
   width: 75px;
   height: 75px;
-  background-color: #2E3436;
+  background-color: #2e3436;
   color: white;
   text-align: center;
   font-size: 25px;
   -webkit-border-radius: 75px;
-    -moz-border-radius: 75px;
-         border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
 }
 .event-date {
   padding-top: 13px;
@@ -184,7 +185,7 @@
   line-height: 25px;
 }
 .counter {
-  display: block;  
+  display: block;
   padding-top: 25px;
 }
 .signin-with-list {
@@ -200,31 +201,33 @@
   cursor: pointer;
 }
 .btn-facebook {
-  background: #3679EA;
+  background: #3679ea;
   -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-         border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 .btn-twitter {
   background: #53cbe9;
   -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-         border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 .btn-google {
   background: #7288de;
   -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-         border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 .btn-github {
-  background: #2E3436;
+  background: #2e3436;
   -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-         border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
-.btn-facebook:hover, .btn-twitter:hover,
-.btn-google:hover, .btn-github:hover {
+.btn-facebook:hover,
+.btn-twitter:hover,
+.btn-google:hover,
+.btn-github:hover {
   text-decoration: none;
 }
 .form-signin-signup input[type="text"],
@@ -288,7 +291,7 @@ footer {
   margin-left: 25px;
 }
 .footer-divider {
-  border-top: 0;  
+  border-top: 0;
   border-bottom: 1px solid #333;
 }
 /* End: Bootbusiness specific CSS */
@@ -299,7 +302,7 @@ footer {
     color: white;
   }
   .nav-collapse .dropdown-menu a:hover {
-    background-color: #2E3436;
+    background-color: #2e3436;
   }
   .nav-collapse .nav-header,
   .nav-collapse .dropdown-submenu > a {
