@@ -145,17 +145,20 @@ Sarv Webs Pvt Ltd, Jaipur
     <!-- Start: slider -->
     <center>
       <div class="caption">
-        <IMG src="gallery\1.jpg" height="18%" width="68%" id="image" />
+        <IMG src="banner/1.jpg" height="18%" width="68%" id="image" />
         <SCRIPT type="text/javascript">
           setInterval(ChangeImage, 2400);
           function ChangeImage() {
             var imgsrc = document.getElementById('image').getAttribute("src");
+            console.log(imgsrc)
             var cimgno = imgsrc.substring(imgsrc.lastIndexOf("/") + 1, imgsrc.lastIndexOf("/") + 2);
-            if (cimgno == "7") {
-              cimgno = "1";
+            if (cimgno == "6") {
+              cimgno = "0";
             }
+            console.log(cimgno)
             var nextimgno = parseInt(cimgno) + 1;
             var nextimg = "./banner/" + nextimgno + ".jpg";
+            console.log(nextimg)
             document.getElementById("image").setAttribute("src", nextimg);
           }
         </SCRIPT>
